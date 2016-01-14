@@ -1,4 +1,4 @@
-var nextTick = require('process/browser.js').nextTick;
+var nextTick = require('../process/browser.js').nextTick;
 var apply = Function.prototype.apply;
 var slice = Array.prototype.slice;
 var immediateIds = {};
